@@ -18,7 +18,7 @@ a[j]=a[i];}
 }
 void ssort(int b[],int m)
 {
-for(int z=0;z<m-1;z++)
+for(int z=0;z<m;z++)
 {
- swap_max(b,m-1,z);
+ swap_max(b,m,z);
 }}
